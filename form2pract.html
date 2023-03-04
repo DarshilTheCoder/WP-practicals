@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <main>
+        <form action="#" class="form">
+            <label for="name">
+                Name
+                <input type="text" placeholder="enter your name here">
+            </label>
+            <br>
+            <label for="password">
+                Password
+                <input type="password">
+            </label>
+            <br>
+            <label for="address">
+                Address
+                <textarea cols="30" rows="5"></textarea>
+            </label>
+            <br>
+            <label for="phonenumber">Mobile Number
+                <input type="tel" pattern="[1-9]{1}[0-9]{9}" maxlength="10">
+            </label>
+            <br>
+            <label for="emailaddress">Email Id
+                <input type="emai">
+            </label>
+            <br>
+            <label for="genderSelection">
+                Male
+                <input type="radio" name="gender">
+                Female
+                <input type="radio" name="gender" id="">
+            </label>
+            <br>
+            <label for="hobbies">
+                <input type="checkbox" name="cricket" id=""> Cricket
+                <br>
+                <input type="checkbox" name="football" id=""> Football
+                <br>
+                <input type="checkbox" name="programming" id=""> programming
+            </label>
+            <br>
+            <label for="cars">Choose your Country:</label>
+
+            <select name="Country" id="Country">
+              <option value="volvo">India</option>
+              <option value="saab">USA</option>
+              <option value="mercedes">UK</option>
+              <option value="audi">SA</option>
+              <option value="srilanka">srilanka</option>
+              <option value="poland">poland</option>
+              <option value="korea">korea</option>
+              <option value="japan">japan</option>
+              <option value="china">china</option>
+              <option value="bhutan">bhutan</option>
+            </select>
+            <br>
+            <label for="reset">
+                <button type="reset">Reset</button>
+            </label>
+        </form>
+    </main>
+</body>
+</html>
